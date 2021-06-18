@@ -8,7 +8,7 @@ const Index = () => (
     meta={(
       <Meta
         title="Buddy + GitKraken"
-        description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+        description="Improve your continuous integration and continuous deployment while learning how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. Register for free webinar on June 22."
       />
     )}
   >
