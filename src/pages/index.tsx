@@ -23,12 +23,13 @@ const Index = () => (
     </h1>
     
     <div className="row">
-      <div className="column">
-        <img alt="Maciek Palmowski" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/maciek-palmowski-300x300.jpg" width="100%"></img>
+    <div className="column">
+        <img alt="Dwayne McDaniel" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dwayne-mcdaniel-300x300.jpg" width="80%"></img>
       </div>
       <div className="column">
-        <img alt="Dwayne McDaniel" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dwayne-mcdaniel-300x300.jpg" width="100%"></img>
+        <img alt="Maciek Palmowski" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/maciek-palmowski-300x300.jpg" width="80%"></img>
       </div>
+
     </div>
 
     <p>
