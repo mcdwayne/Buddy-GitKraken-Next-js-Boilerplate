@@ -40,10 +40,30 @@ const Index = () => (
     </h2>
     {' '}
     <p>
+      ------
+    </p>
+    <p>
     Buddy is the most effective way to build better apps faster. Acclaimed by top developers world-wide, Buddy combines impeccable user experience with top-notch performance into one solution for teams that want to painlessly introduce CI/CD and accelerate the development lifecycle of their software.
     </p>
     <p>
         Sign up today at <a href="https://buddy.works">https://buddy.works</a>
+    </p>
+    <p>
+      ------
+    </p>
+
+    <h2>
+      About <a href="https://gitkraken.com">GitKraken</a>
+    </h2>
+    <p>
+    Over 2 million developers worldwide rely on GitKraken to get their work done. 
+    You can use the cross-platform Git Client to visualize file history and changes to your repos in a beautiful graph; 
+    </p>
+    <p>
+      Download your own version of GitKraken today at <a href="https://gitkraken.com">https://gitkraken.com</a>
+    </p>
+    <p>
+      ------
     </p>
     <h2>
       About this NextJS Template.
