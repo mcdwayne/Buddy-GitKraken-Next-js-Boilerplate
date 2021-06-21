@@ -35,17 +35,19 @@ const Index = () => (
     <p>
     Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
     </p>
-    {' '}
-    <h2>
-      <a href="https://buddy.works/">About Buddy 
-          <img alt='Buddy logo' width='20%' src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}>
-        </img>
-      </a>
-    </h2>
+
     {' '}
     <p>
       ------
     </p>
+    <h2>
+      <a href="https://buddy.works/">About Buddy 
+          <img alt='Buddy logo' width='25%' src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}>
+        </img>
+      </a>
+    </h2>
+    {' '}
+    
     <p>
     Buddy is the most effective way to build better apps faster. Acclaimed by top developers world-wide, Buddy combines impeccable user experience with top-notch performance into one solution for teams that want to painlessly introduce CI/CD and accelerate the development lifecycle of their software.
     </p>
@@ -57,7 +59,10 @@ const Index = () => (
     </p>
 
     <h2>
-      About <a href="https://gitkraken.com">GitKraken</a>
+      About <a href="https://gitkraken.com">GitKraken
+        <img alt='GitKraken logo' width='27%' src={`${process.env.baseUrl}/assets/images/gitkraken-logo-dark.png`}>
+          </img>
+      </a>
     </h2>
     <p>
     Over 2 million developers worldwide rely on GitKraken to get their work done. 
