@@ -19,3 +19,12 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}

@@ -14,13 +14,23 @@ const Index = () => (
   >
     <a href="https://github.com/ixartz/Next-js-Boilerplate">
       <img
-        src={`${process.env.baseUrl}/assets/images/nextjs-starter-banner.png`}
+        src={`${process.env.baseUrl}/assets/images/buddy-webinar-hero.png`}
         alt="Nextjs starter banner"
       />
     </a>
     <h1 className="font-bold text-2xl">
-      HELLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      HELLO WORLD!
     </h1>
+    
+    <div className="row">
+      <div className="column">
+        <img alt="Maciek Palmowski" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/maciek-palmowski-300x300.jpg" width="100%"></img>
+      </div>
+      <div className="column">
+        <img alt="Dwayne McDaniel" src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dwayne-mcdaniel-300x300.jpg" width="100%"></img>
+      </div>
+    </div>
+
     <p>
     Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
     </p>
@@ -43,8 +53,7 @@ const Index = () => (
         🚀
       </span>
       {' '}
-      Next.js Boilerplate is a starter code for your Next js project by putting developer experience
-      first .
+      This page is based on the Next.js Boilerplate.
       {' '}
       <span role="img" aria-label="zap">
         ⚡️
