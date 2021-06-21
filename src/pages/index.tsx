@@ -12,10 +12,10 @@ const Index = () => (
       />
     )}
   >
-    <a href="https://github.com/ixartz/Next-js-Boilerplate">
+    <a href="https://gitkraken.com/webinar/jamstack-nextjs">
       <img
         src={`${process.env.baseUrl}/assets/images/buddy-webinar-hero.png`}
-        alt="Nextjs starter banner"
+        alt="Buddy + GitKraken webinar logo"
       />
     </a>
     <h1 className="font-bold text-2xl">
@@ -37,7 +37,10 @@ const Index = () => (
     </p>
     {' '}
     <h2>
-      <a href="https://buddy.works/">About Buddy</a>
+      <a href="https://buddy.works/">About Buddy 
+          <img alt='Buddy logo' width='20%' src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}>
+        </img>
+      </a>
     </h2>
     {' '}
     <p>
