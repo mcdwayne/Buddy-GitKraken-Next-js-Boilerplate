@@ -33,7 +33,7 @@ const Index = () => (
       <a href="https://buddy.works/">About Buddy 
           <img 
             alt='Buddy logo' 
-            width='25%' 
+            width='30%' 
             src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}>
         </img>
       </a>
@@ -54,7 +54,7 @@ const Index = () => (
       About <a href="https://gitkraken.com">GitKraken
         <img 
           alt='GitKraken logo' 
-          width='27%' 
+          width='30%' 
           src={`${process.env.baseUrl}/assets/images/gitkraken-logo-dark.png`}>
         </img>
       </a>
