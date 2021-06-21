@@ -19,7 +19,7 @@ const Index = () => (
       />
     </a>
     <h1 className="font-bold text-2xl">
-      HELLO WORLD!
+     
     </h1>
     {' '}
    
