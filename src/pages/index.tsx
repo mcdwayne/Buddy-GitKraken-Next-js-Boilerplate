@@ -19,8 +19,25 @@ const Index = () => (
       />
     </a>
     <h1 className="font-bold text-2xl">
-      HELLOW WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      HELLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     </h1>
+    <p>
+    Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
+    </p>
+    {' '}
+    <h2>
+      <a href="https://buddy.works/">About Buddy</a>
+    </h2>
+    {' '}
+    <p>
+    Buddy is the most effective way to build better apps faster. Acclaimed by top developers world-wide, Buddy combines impeccable user experience with top-notch performance into one solution for teams that want to painlessly introduce CI/CD and accelerate the development lifecycle of their software.
+    </p>
+    <p>
+        Sign up today at <a href="https://buddy.works">https://buddy.works</a>
+    </p>
+    <h2>
+      About this NextJS Template.
+    </h2>
     <p>
       <span role="img" aria-label="rocket">
         🚀
@@ -166,42 +183,6 @@ const Index = () => (
         </span>
         {' '}
         Maximize lighthouse score
-      </li>
-    </ul>
-    <p>Built-in feature from Next.js:</p>
-    <ul>
-      <li>
-        <span role="img" aria-label="coffee">
-          ☕
-        </span>
-        {' '}
-        Minify HTML &amp; CSS
-      </li>
-      <li>
-        <span role="img" aria-label="dash">
-          💨
-        </span>
-        {' '}
-        Live reload
-      </li>
-      <li>
-        <span role="img" aria-label="white_check_mark">
-          ✅
-        </span>
-        {' '}
-        Cache busting
-      </li>
-    </ul>
-    <h2 className="font-semibold text-lg">Our Stater code Philosophy</h2>
-    <ul>
-      <li>Minimal code</li>
-      <li>SEO-friendly</li>
-      <li>
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>
-        {' '}
-        Production-ready
       </li>
     </ul>
     <p>
