@@ -22,9 +22,12 @@ const Index = () => (
       HELLO WORLD!
     </h1>
     {' '}
+   
     <p>
-      ------
+    Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
     </p>
+      ------
+   
     <h2>
       About the presenters
     </h2>
@@ -47,9 +50,7 @@ const Index = () => (
       </div>
     </div>
 
-    <p>
-    Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
-    </p>
+
 
     
     <h2>
