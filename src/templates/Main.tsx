@@ -34,7 +34,7 @@ const Main = (props: IMainProps) => (
             <li className="mr-6">
               <a
                 className="text-gray-700 border-none hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
+                href="https://github.com/mcdwayne/Buddy-GitKraken-Next-js-Boilerplate"
               >
                 GitHub
               </a>
