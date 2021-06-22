@@ -18,100 +18,94 @@ const Index = () => (
         alt="Buddy + GitKraken webinar logo"
       />
     </a>
-    <h1 className="font-bold text-2xl">
-     Hello Everybody!
-    </h1>
+    <h1 className="font-bold text-5xl">Hello Everybody On The Webinar!</h1>
     {' '}
-   
     <p>
-    Learn how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our collaboration with Buddy, with the <a href="https://buddy.works/webinar">second part on June 30, 2021</a>.
+      Learn how to set up and manage your NextJS site, from the initial theme cloning to final
+      production on Netlify, using GitKraken and Buddy. This is the first of two webinars in our
+      collaboration with Buddy, with the
+      {' '}
+      <a href="https://buddy.works/webinar">second part on June 30, 2021</a>
+      .
     </p>
-      ------
-   
-       
+    ------
     <h2>
-      <a href="https://buddy.works/">About Buddy 
-          <img 
-            alt='Buddy logo' 
-            width='25%' 
-            src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}>
-        </img>
+      <a href="https://buddy.works/">
+        About Buddy
+        <img
+          alt="Buddy logo"
+          width="25%"
+          src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}
+        />
       </a>
     </h2>
     {' '}
-    
     <p>
-    Buddy is the most effective way to build better apps faster. Acclaimed by top developers world-wide, Buddy combines impeccable user experience with top-notch performance into one solution for teams that want to painlessly introduce CI/CD and accelerate the development lifecycle of their software.
+      Buddy is the most effective way to build better apps faster. Acclaimed by top developers
+      world-wide, Buddy combines impeccable user experience with top-notch performance into one
+      solution for teams that want to painlessly introduce CI/CD and accelerate the development
+      lifecycle of their software.
     </p>
     <p>
-        Sign up today at <a href="https://buddy.works">https://buddy.works</a>
+      Sign up today at
+      {' '}
+      <a href="https://buddy.works">https://buddy.works</a>
     </p>
-    <p>
-      ------
-    </p>
-
+    <p>------</p>
     <h2>
-      About <a href="https://gitkraken.com">GitKraken
-        <img 
-          alt='GitKraken logo' 
-          width='27%' 
-          src={`${process.env.baseUrl}/assets/images/gitkraken-logo-dark.png`}>
-        </img>
+      About
+      {' '}
+      <a href="https://gitkraken.com">
+        GitKraken
+        <img
+          alt="GitKraken logo"
+          width="27%"
+          src={`${process.env.baseUrl}/assets/images/gitkraken-logo-dark.png`}
+        />
       </a>
     </h2>
     <p>
-    Over 2 million developers worldwide rely on GitKraken to get their work done. 
-    You can use the cross-platform Git Client to visualize file history and changes to your repos in a beautiful graph; 
+      Over 2 million developers worldwide rely on GitKraken to get their work done. You can use the
+      cross-platform Git Client to visualize file history and changes to your repos in a beautiful
+      graph;
     </p>
     <p>
-      Download your own version of GitKraken today at <a href="https://gitkraken.com">https://gitkraken.com</a>
+      Download your own version of GitKraken today at
+      {' '}
+      <a href="https://gitkraken.com">https://gitkraken.com</a>
     </p>
+    <p>------</p>
     <p>
+      <h2>About the presenters</h2>
+      <div className="row">
+        <div className="column">
+          <a href="https://twitter.com/palmiak_fp">
+            <img
+              className="rounded-full"
+              alt="Maciek Palmowski"
+              width="100%"
+              src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/maciek-palmowski-300x300.jpg"
+            />
+            Maciek Palmowski WordPress Ambassador at Buddy & GitKraken Ambassador
+          </a>
+        </div>
+        <div className="column">
+          <a href="https://twitter.com/McDwayne">
+            <img
+              className="rounded-full"
+              alt="Dwayne McDaniel"
+              width="100%"
+              src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dwayne-mcdaniel-300x300.jpg"
+            />
+            Dwayne McDaniel
+            <br />
+            GitKraken Developer Evangelist
+          </a>
+        </div>
+      </div>
       ------
     </p>
-    <p>
-
-    <h2>
-      About the presenters
-    </h2>
-    <div className="row">
-      <div className="column">
-        <a href="https://twitter.com/palmiak_fp">
-        <img 
-          className="rounded-full" 
-          alt="Maciek Palmowski" 
-          width="100%"
-          src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/maciek-palmowski-300x300.jpg">
-        </img>
-        Maciek Palmowski
-        
-        WordPress Ambassador at Buddy & GitKraken Ambassador
-        </a>
-      </div>
-      <div className="column">
-      <a href="https://twitter.com/McDwayne">
-        <img 
-          className="rounded-full" 
-          alt="Dwayne McDaniel" 
-          width="100%"
-          src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dwayne-mcdaniel-300x300.jpg">
-        </img>
-        
-        Dwayne McDaniel
-        <br></br>
-        GitKraken Developer Evangelist
-        </a>
-      </div>
-    </div>
-
-
-
-
-      ------
-    </p>
-    <h2>
-      About this NextJS Template.
-    </h2>
+    <h2>About this NextJS Template.</h2>
     <p>
       <span role="img" aria-label="rocket">
         🚀
