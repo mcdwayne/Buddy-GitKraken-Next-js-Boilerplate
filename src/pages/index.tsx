@@ -18,7 +18,7 @@ const Index = () => (
         alt="Buddy + GitKraken webinar logo"
       />
     </a>
-    <h1 className="font-bold text-5xl">Hello Everybody On The Webinar!</h1>
+    <h1 className="font-bold text-5xl">Hello Everybody On The Webinar about NextJS!</h1>
     {' '}
     <p>
       Learn how to set up and manage your NextJS site, from the initial theme cloning to final
