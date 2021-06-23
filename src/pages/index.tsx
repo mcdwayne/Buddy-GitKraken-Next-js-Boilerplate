@@ -35,7 +35,7 @@ const Index = () => (
         <img
           alt="Buddy logo"
           width="25%"
-          src={`${process.env.baseUrl}/assets/images/buddy-logo.pngx`}
+          src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}
         />
       </a>
     </h2>
