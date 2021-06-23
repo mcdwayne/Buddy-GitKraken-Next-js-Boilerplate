@@ -9,7 +9,8 @@
     "export": "next export -o dist",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "next": "^10.2.3",
@@ -25,6 +26,7 @@
     "@types/react": "^17.0.5",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "autoprefixer": "^10.2.5",
+    "cypress": "^7.5.0",
     "eslint": "^7.26.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
