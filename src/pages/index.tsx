@@ -7,7 +7,7 @@ const Index = () => (
   <Main
     meta={(
       <Meta
-        title="Buddy + GitKraken"
+        title="Buddy + GitKraken = HEART"
         description="Improve your continuous integration and continuous deployment while learning how to set up and manage your NextJS site, from the initial theme cloning to final production on Netlify, using GitKraken and Buddy. Register for free webinar on June 22."
       />
     )}
