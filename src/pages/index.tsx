@@ -31,7 +31,7 @@ const Index = () => (
     ------
     <h2>
       <a href="https://buddy.works/">
-        About Buddy
+        About Buddy Works
         <img
           alt="Buddy logo"
           width="25%"
