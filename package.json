@@ -10,7 +10,8 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next dist",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --config video=false"
   },
   "dependencies": {
     "next": "^10.2.3",
