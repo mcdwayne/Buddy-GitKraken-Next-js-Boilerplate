@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
-  darkMode: 'media',
+  darkMode: false,
   theme: {
     fontSize: {
       xs: '0.75rem',

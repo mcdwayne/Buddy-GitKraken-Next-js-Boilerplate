@@ -20,16 +20,3 @@ a:hover {
   @apply my-6;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-}
-
-body {
-    /* background-image: url(https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/axosoft-gitkraken-bubbles-landscape.png); */
-    
-  }
