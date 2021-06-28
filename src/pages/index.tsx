@@ -18,7 +18,7 @@ const Index = () => (
         alt="Buddy + GitKraken webinar logo"
       />
     </a>
-    <h1 className="font-bold text-5xl">Hello Everybody On The Webinar about NextJS! :) :) :)</h1>
+    <h1 className="font-bold font-black text-5xl">Hello Everyone!</h1>
     {' '}
     <p>
       Learn how to set up and manage your NextJS site, from the initial theme cloning to final
@@ -31,10 +31,10 @@ const Index = () => (
     ------
     <h2>
       <a href="https://buddy.works/">
-        About Buddy Works
+        About Buddy
         <img
           alt="Buddy logo"
-          width="25%"
+          width="30%"
           src={`${process.env.baseUrl}/assets/images/buddy-logo.png`}
         />
       </a>
@@ -59,7 +59,7 @@ const Index = () => (
         GitKraken
         <img
           alt="GitKraken logo"
-          width="27%"
+          width="30%"
           src={`${process.env.baseUrl}/assets/images/gitkraken-logo-dark.png`}
         />
       </a>
@@ -77,8 +77,8 @@ const Index = () => (
     <p>------</p>
     <p>
       <h2>About the presenters</h2>
-      <div className="row">
-        <div className="column">
+      <div className="flex">
+        <div className="flex-1">
           <a href="https://twitter.com/palmiak_fp">
             <img
               className="rounded-full"
@@ -89,7 +89,7 @@ const Index = () => (
             Maciek Palmowski WordPress Ambassador at Buddy & GitKraken Ambassador
           </a>
         </div>
-        <div className="column">
+        <div className="flex-1">
           <a href="https://twitter.com/McDwayne">
             <img
               className="rounded-full"
