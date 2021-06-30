@@ -12,7 +12,7 @@ const Index = () => (
       />
     )}
   >
-    <a href="https://gitkraken.c/webinar/jamstack-nextjs">
+    <a href="https://gitkraken.com/webinar/jamstack-nextjs">
       <img
         src={`${process.env.baseUrl}/assets/images/buddy-webinar-hero.png`}
         alt="Buddy + GitKraken webinar logo"
